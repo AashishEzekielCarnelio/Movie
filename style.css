@@ -5,7 +5,6 @@ body {
   color: #fff;
 }
 
-/* NAVBAR */
 nav {
   display: flex;
   justify-content: space-between;
@@ -21,13 +20,12 @@ input {
   padding: 8px;
 }
 
-/* HERO */
+
 #hero {
   padding: 40px;
   background: #222;
 }
 
-/* GENRES */
 #genres {
   padding: 20px;
 }
@@ -38,7 +36,6 @@ button {
   cursor: pointer;
 }
 
-/* MOVIES */
 #movies {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -52,7 +49,6 @@ button {
   cursor: pointer;
 }
 
-/* MODAL */
 #modal {
   position: fixed;
   top: 0;
