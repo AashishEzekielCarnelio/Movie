@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineMax</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h1 class="logo">Cin</h1>
+  <input type="text" id="search" placeholder="Search movies...">
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <h2 id="heroTitle"></h2>
+  <p id="heroDesc"></p>
+</section>
+
+<!-- GENRE -->
+<div id="genres"></div>
+
+<!-- MOVIES -->
+<section>
+  <h2>Movies</h2>
+  <div id="movies"></div>
+</section>
+
+<!-- MODAL -->
+<div id="modal" class="hidden">
+  <div class="modal-content">
+    <span id="close">&times;</span>
+    <h2 id="modalTitle"></h2>
+    <p id="modalDesc"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
